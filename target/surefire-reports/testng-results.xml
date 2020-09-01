@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3766" started-at="2020-09-01T13:48:37Z" finished-at="2020-09-01T13:48:40Z">
+    <groups>
+    </groups>
+    <test name="Electron App Tests" duration-ms="3766" started-at="2020-09-01T13:48:37Z" finished-at="2020-09-01T13:48:40Z">
+      <class name="SanityTests.electronDemo">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.electronDemo@74a9c4b0]" name="startSession" is-config="true" duration-ms="2691" started-at="2020-09-01T13:48:37Z" finished-at="2020-09-01T13:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="test01_screenResolution()[pri:0, instance:SanityTests.electronDemo@74a9c4b0]" name="test01_screenResolution" duration-ms="409" started-at="2020-09-01T13:48:39Z" description="Test01: Verify Screen Resolution" finished-at="2020-09-01T13:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_screenResolution -->
+        <test-method status="PASS" signature="afterMethod(java.lang.String)[pri:0, instance:SanityTests.electronDemo@74a9c4b0]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-01T13:48:40Z" finished-at="2020-09-01T13:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeSession(java.lang.String)[pri:0, instance:SanityTests.electronDemo@74a9c4b0]" name="closeSession" is-config="true" duration-ms="557" started-at="2020-09-01T13:48:40Z" finished-at="2020-09-01T13:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- SanityTests.electronDemo -->
+    </test> <!-- Electron App Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

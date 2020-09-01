@@ -1,0 +1,262 @@
+{
+  "uid" : "6eac487b8cce9834",
+  "name" : "Test01: Login to MyFitnessPal",
+  "fullName" : "SanityTests.myFitnessPalWeb.test01_login",
+  "historyId" : "cc232948e7f2b2662e78d3fa176b76ca",
+  "time" : {
+    "start" : 1598960571728,
+    "stop" : 1598960577532,
+    "duration" : 5804
+  },
+  "description" : "Test Description: Login into MyFitnessPal web application",
+  "descriptionHtml" : "<p>Test Description: Login into MyFitnessPal web application</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1598960561753,
+      "stop" : 1598960571690,
+      "duration" : 9937
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login into MyFitnessPal web application",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login MyFitnessPal Flow - Web",
+      "time" : {
+        "start" : 1598960571767,
+        "stop" : 1598960577434,
+        "duration" : 5667
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598960571807,
+          "stop" : 1598960571950,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> class name: fancylink]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598960571962,
+          "stop" : 1598960572164,
+          "duration" : 202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> name: username]"
+        }, {
+          "name" : "value",
+          "value" : "member1234@gmail.com"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598960572176,
+          "stop" : 1598960572296,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> name: password]"
+        }, {
+          "name" : "value",
+          "value" : "member1234"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598960572306,
+          "stop" : 1598960572405,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> class name: expand-width]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598960576830,
+          "stop" : 1598960577434,
+          "duration" : 604
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> class name: close-btn]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "member1234@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "member1234"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1598960577489,
+        "stop" : 1598960577530,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (edefc2ddc62924938bc7f6c47b6e27bf)] -> xpath: //div[@class = 'header-wrap clearfix']//li[@class = 'first' and contains(text(), 'Hi')]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Hi, member11"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1598960618490,
+      "stop" : 1598960619079,
+      "duration" : 589
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598960577648,
+      "stop" : 1598960579172,
+      "duration" : 1524
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C5T3T2P"
+  }, {
+    "name" : "thread",
+    "value" : "21588@DESKTOP-C5T3T2P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6eac487b8cce9834.json",
+  "parameterValues" : [ "web" ]
+}

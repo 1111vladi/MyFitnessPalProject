@@ -1,0 +1,423 @@
+{
+  "uid" : "9220385038fab7cd",
+  "name" : "Test01: Login to MyFitnessPal with DB",
+  "fullName" : "SanityTests.myFitnessPalDB.test01_loginDB",
+  "historyId" : "b61b9722ad96c5216ed502610780fe37",
+  "time" : {
+    "start" : 1598968083285,
+    "stop" : 1598968089218,
+    "duration" : 5933
+  },
+  "description" : "Test Description: Login into MyFitnessPal web application with DB",
+  "descriptionHtml" : "<p>Test Description: Login into MyFitnessPal web application with DB</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1598968073379,
+      "stop" : 1598968083250,
+      "duration" : 9871
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login into MyFitnessPal web application with DB",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login MyFitnessPal flow with DB credentials",
+      "time" : {
+        "start" : 1598968083314,
+        "stop" : 1598968089163,
+        "duration" : 5849
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get credentials from DB",
+        "time" : {
+          "start" : 1598968083319,
+          "stop" : 1598968083406,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT username, password FROM Credentials WHERE id='3'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968083426,
+          "stop" : 1598968083523,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> class name: fancylink]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598968083538,
+          "stop" : 1598968083690,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> css selector: div[id= 'fancybox-content'] input[name ='username']]"
+        }, {
+          "name" : "value",
+          "value" : "member1234@gmail.com"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598968083699,
+          "stop" : 1598968083840,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> css selector: div[id= 'fancybox-content'] input[name ='password']]"
+        }, {
+          "name" : "value",
+          "value" : "member1234"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968083849,
+          "stop" : 1598968086289,
+          "duration" : 2440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> class name: expand-width]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968088871,
+          "stop" : 1598968089163,
+          "duration" : 292
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> class name: close-btn]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1598968089195,
+        "stop" : 1598968089216,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (e2aab60521f04f2039e4fc1c64324e72)] -> xpath: //div[@class = 'header-wrap clearfix']//li[@class = 'first' and contains(text(), 'Hi')]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Hi, member11"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1598968089306,
+      "stop" : 1598968089897,
+      "duration" : 591
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598968089299,
+      "stop" : 1598968089299,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_loginDB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal Database Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C5T3T2P"
+  }, {
+    "name" : "thread",
+    "value" : "29784@DESKTOP-C5T3T2P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "database"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "150646d9aa9de3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964888888,
+        "stop" : 1598964894520,
+        "duration" : 5632
+      }
+    }, {
+      "uid" : "871fda1c1445acd6",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598964744164,
+        "stop" : 1598964744256,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "dde94c0210215649",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598964664690,
+        "stop" : 1598964664771,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "d19e18626894f990",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598964639084,
+        "stop" : 1598964639167,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "452ca5388d448783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964054275,
+        "stop" : 1598964060970,
+        "duration" : 6695
+      }
+    }, {
+      "uid" : "8ab01799b86655ee",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using class name=close-btn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-C5T3T2P', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1598964028044,
+        "stop" : 1598964031118,
+        "duration" : 3074
+      }
+    }, {
+      "uid" : "3073fc1b6a8ad942",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: element has zero size\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-C5T3T2P', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7bd3cc51f5392f0d3089cfabea7f377e",
+      "time" : {
+        "start" : 1598963999766,
+        "stop" : 1598964005292,
+        "duration" : 5526
+      }
+    }, {
+      "uid" : "4a42456dea27a521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598963924550,
+        "stop" : 1598963931462,
+        "duration" : 6912
+      }
+    }, {
+      "uid" : "784f3c49d11196e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598963838276,
+        "stop" : 1598963845112,
+        "duration" : 6836
+      }
+    }, {
+      "uid" : "88cd515f9213d173",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598960538888,
+        "stop" : 1598960545680,
+        "duration" : 6792
+      }
+    }, {
+      "uid" : "5249dd80d3603130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598960515285,
+        "stop" : 1598960522946,
+        "duration" : 7661
+      }
+    }, {
+      "uid" : "6ff6cd94c2ac85e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598959812811,
+        "stop" : 1598959820042,
+        "duration" : 7231
+      }
+    }, {
+      "uid" : "f88655cba7baaf69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598959234097,
+        "stop" : 1598959240622,
+        "duration" : 6525
+      }
+    }, {
+      "uid" : "c1518e82631f8e58",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using class name=close-btn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-C5T3T2P', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1598959203293,
+        "stop" : 1598959206313,
+        "duration" : 3020
+      }
+    }, {
+      "uid" : "38fa71fdccb2e0a9",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using class name=close-btn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-C5T3T2P', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1598958251449,
+        "stop" : 1598958257923,
+        "duration" : 6474
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a927e201085b0f0b",
+        "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/a927e201085b0f0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964888888,
+          "stop" : 1598964894520,
+          "duration" : 5632
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9220385038fab7cd.json",
+  "parameterValues" : [ "database" ]
+}

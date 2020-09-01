@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>10</TimeOut>
+
+    <!-- Credentials -->
+    <username_web>member1234@gmail.com</username_web>
+    <password_web>member1234</password_web>
+    <username_api>admin</username_api>
+    <password_api>admin</password_api>
+
+    <!-- Web -->
+    <Url>https://www.myfitnesspal.com/exercise/lookup</Url>
+    <BrowserName>Chrome</BrowserName>
+    <ImageRepo>./imageRepository/</ImageRepo>
+
+    <!-- Mobile -->
+    <UDID>ce051715d2374c3d03</UDID>
+    <APP_PACKAGE>com.myfitnesspal.android</APP_PACKAGE>
+    <APP_ACTIVITY>.login.Welcome</APP_ACTIVITY>
+
+    <!-- API -->
+    <url_api>http://localhost:3000/</url_api>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>E:/Program Files (x86)/Electron API Demos-win32-ia32/Electron API Demos.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <Calculator_App_Path>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Calculator_App_Path>
+    <Appium_Server>http://127.0.0.1:4723</Appium_Server>
+
+    <!-- DB -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/t1KLzStUOm</dbURL>
+    <dbUser>t1KLzStUOm</dbUser>
+    <dbPass>h8gycJgRyf</dbPass>
+
+
+
+</Environment>

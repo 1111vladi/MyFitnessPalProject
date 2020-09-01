@@ -1,0 +1,161 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "startSession",
+    "uid" : "227ce007254cfc46",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1598958226505,
+      "stop" : 1598958226507,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test01: Login to MyFitnessPal with DB",
+    "uid" : "ab9b8dce1e02e4ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1598958226562,
+      "stop" : 1598958226563,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "closeSession",
+    "uid" : "aa7431af2b48387f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1598964918410,
+      "stop" : 1598964918411,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "electron" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "ac8c0ec4fd5e919e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1598966924533,
+      "stop" : 1598966924535,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test01: Login to MyFitnessPal",
+    "uid" : "78e3c76e171d60cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1598966924589,
+      "stop" : 1598966924590,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test02: Verify Added Exercise",
+    "uid" : "7d9cb7c1f30de7f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1598966924597,
+      "stop" : 1598966924597,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test03: Verify Deleted Exercise",
+    "uid" : "7417881753e698ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1598966924599,
+      "stop" : 1598966924600,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test03: Verify Deleted Exercise",
+    "uid" : "6b7e5dd6ec163afb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598967403978,
+      "stop" : 1598967425539,
+      "duration" : 21561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test01: Login to MyFitnessPal",
+    "uid" : "ef33e8fe2ddba405",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598968014270,
+      "stop" : 1598968020273,
+      "duration" : 6003
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test02: Verify Added Exercise",
+    "uid" : "ac71079850e5975",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598968021459,
+      "stop" : 1598968027203,
+      "duration" : 5744
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test01: Login to MyFitnessPal with DB",
+    "uid" : "9220385038fab7cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598968083285,
+      "stop" : 1598968089218,
+      "duration" : 5933
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "database" ]
+  }, {
+    "name" : "Test01: Verify Screen Resolution",
+    "uid" : "e9414a89b4e94cf0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1598968119961,
+      "stop" : 1598968120343,
+      "duration" : 382
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "electron" ]
+  } ]
+}

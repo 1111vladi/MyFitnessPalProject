@@ -1,0 +1,177 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests",
+    "children" : [ {
+      "name" : "myFitnessPalDB",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "227ce007254cfc46",
+        "parentUid" : "2f3ecc606714b7e502eef0161f407eb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598958226505,
+          "stop" : 1598958226507,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01_loginDB",
+        "uid" : "ab9b8dce1e02e4ce",
+        "parentUid" : "2f3ecc606714b7e502eef0161f407eb0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598958226562,
+          "stop" : 1598958226563,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01_loginDB",
+        "uid" : "9220385038fab7cd",
+        "parentUid" : "2f3ecc606714b7e502eef0161f407eb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968083285,
+          "stop" : 1598968089218,
+          "duration" : 5933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "2f3ecc606714b7e502eef0161f407eb0"
+    }, {
+      "name" : "electronDemo",
+      "children" : [ {
+        "name" : "closeSession",
+        "uid" : "aa7431af2b48387f",
+        "parentUid" : "d8fc0dd4397f44c7b71a4b95a6e265a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964918410,
+          "stop" : 1598964918411,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "test01_screenResolution",
+        "uid" : "e9414a89b4e94cf0",
+        "parentUid" : "d8fc0dd4397f44c7b71a4b95a6e265a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968119961,
+          "stop" : 1598968120343,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "d8fc0dd4397f44c7b71a4b95a6e265a6"
+    }, {
+      "name" : "myFitnessPalWeb",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "ac8c0ec4fd5e919e",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598966924533,
+          "stop" : 1598966924535,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01_login",
+        "uid" : "78e3c76e171d60cf",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924589,
+          "stop" : 1598966924590,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02_addStrengthExercise",
+        "uid" : "7d9cb7c1f30de7f0",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924597,
+          "stop" : 1598966924597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test03_deleteStrengthExercise",
+        "uid" : "7417881753e698ca",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924599,
+          "stop" : 1598966924600,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test03_deleteStrengthExercise",
+        "uid" : "6b7e5dd6ec163afb",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967403978,
+          "stop" : 1598967425539,
+          "duration" : 21561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test01_login",
+        "uid" : "ef33e8fe2ddba405",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968014270,
+          "stop" : 1598968020273,
+          "duration" : 6003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test02_addStrengthExercise",
+        "uid" : "ac71079850e5975",
+        "parentUid" : "7b66bfc08439c8464838d609d3bd0b12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968021459,
+          "stop" : 1598968027203,
+          "duration" : 5744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "7b66bfc08439c8464838d609d3bd0b12"
+    } ],
+    "uid" : "e062ce92619bf6813c57937db86cc3fd"
+  } ]
+}

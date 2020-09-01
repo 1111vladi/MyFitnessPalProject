@@ -1,0 +1,296 @@
+{
+  "uid" : "e9414a89b4e94cf0",
+  "name" : "Test01: Verify Screen Resolution",
+  "fullName" : "SanityTests.electronDemo.test01_screenResolution",
+  "historyId" : "28835d71d33a70e468c9d2937ac93b75",
+  "time" : {
+    "start" : 1598968119961,
+    "stop" : 1598968120343,
+    "duration" : 382
+  },
+  "description" : "Test Description: Get the resolution from App and verify",
+  "descriptionHtml" : "<p>Test Description: Get the resolution from App and verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1598968117259,
+      "stop" : 1598968119927,
+      "duration" : 2668
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Get the resolution from App and verify",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get screen info resolution",
+      "time" : {
+        "start" : 1598968119977,
+        "stop" : 1598968120294,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968120015,
+          "stop" : 1598968120059,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: button-windows]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968120078,
+          "stop" : 1598968120133,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: button-app-sys-information]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968120155,
+          "stop" : 1598968120198,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: screen-info-demo-toggle]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968120205,
+          "stop" : 1598968120228,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: screen-info-demo-toggle]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598968120247,
+          "stop" : 1598968120294,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: screen-info]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1598968120317,
+        "stop" : 1598968120342,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (3ab0a2c84a8b0ff1f97daa1b85798f60)] -> id: got-screen-info]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Your screen is: 1920px x 1080px"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1598968120426,
+      "stop" : 1598968120983,
+      "duration" : 557
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598968120418,
+      "stop" : 1598968120418,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.electronDemo"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.electronDemo"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_screenResolution"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Electron App Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.electronDemo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C5T3T2P"
+  }, {
+    "name" : "thread",
+    "value" : "24072@DESKTOP-C5T3T2P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4ff890dfb8a9f809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598965033488,
+        "stop" : 1598965033790,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "5dc0c559d15641c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964999028,
+        "stop" : 1598964999330,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "9bcae0158a04f16e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964918058,
+        "stop" : 1598964918360,
+        "duration" : 302
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "530d1def3bc6d915",
+        "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/530d1def3bc6d915",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598965033488,
+          "stop" : 1598965033790,
+          "duration" : 302
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e9414a89b4e94cf0.json",
+  "parameterValues" : [ "electron" ]
+}

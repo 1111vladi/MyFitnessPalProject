@@ -1,0 +1,205 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MyFitnessPal",
+      "children" : [ {
+        "name" : "SanityTests.myFitnessPalDB",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "227ce007254cfc46",
+          "parentUid" : "be5d980143b4016bf45282f6f2820de6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598958226505,
+            "stop" : 1598958226507,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Login to MyFitnessPal with DB",
+          "uid" : "ab9b8dce1e02e4ce",
+          "parentUid" : "be5d980143b4016bf45282f6f2820de6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1598958226562,
+            "stop" : 1598958226563,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "be5d980143b4016bf45282f6f2820de6"
+      }, {
+        "name" : "SanityTests.myFitnessPalWeb",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "ac8c0ec4fd5e919e",
+          "parentUid" : "1b8d23c39ab0d4a137dbccae49e7a8f7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598966924533,
+            "stop" : 1598966924535,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Login to MyFitnessPal",
+          "uid" : "78e3c76e171d60cf",
+          "parentUid" : "1b8d23c39ab0d4a137dbccae49e7a8f7",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1598966924589,
+            "stop" : 1598966924590,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test02: Verify Added Exercise",
+          "uid" : "7d9cb7c1f30de7f0",
+          "parentUid" : "1b8d23c39ab0d4a137dbccae49e7a8f7",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1598966924597,
+            "stop" : 1598966924597,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test03: Verify Deleted Exercise",
+          "uid" : "7417881753e698ca",
+          "parentUid" : "1b8d23c39ab0d4a137dbccae49e7a8f7",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1598966924599,
+            "stop" : 1598966924600,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1b8d23c39ab0d4a137dbccae49e7a8f7"
+      } ],
+      "uid" : "76acaf79fcb5b468a93f6244d3ccb120"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Electron App Tests",
+      "children" : [ {
+        "name" : "SanityTests.electronDemo",
+        "children" : [ {
+          "name" : "closeSession",
+          "uid" : "aa7431af2b48387f",
+          "parentUid" : "82cccf680f0f06fe96030b9014bc40c3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598964918410,
+            "stop" : 1598964918411,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test01: Verify Screen Resolution",
+          "uid" : "e9414a89b4e94cf0",
+          "parentUid" : "82cccf680f0f06fe96030b9014bc40c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598968119961,
+            "stop" : 1598968120343,
+            "duration" : 382
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "82cccf680f0f06fe96030b9014bc40c3"
+      } ],
+      "uid" : "f193ea204eeec9b958ea87f635049ed2"
+    }, {
+      "name" : "MyFitnessPal Web Tests",
+      "children" : [ {
+        "name" : "SanityTests.myFitnessPalWeb",
+        "children" : [ {
+          "name" : "Test03: Verify Deleted Exercise",
+          "uid" : "6b7e5dd6ec163afb",
+          "parentUid" : "b581c516c6b9db59de59ebc2db6034d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598967403978,
+            "stop" : 1598967425539,
+            "duration" : 21561
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test01: Login to MyFitnessPal",
+          "uid" : "ef33e8fe2ddba405",
+          "parentUid" : "b581c516c6b9db59de59ebc2db6034d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598968014270,
+            "stop" : 1598968020273,
+            "duration" : 6003
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02: Verify Added Exercise",
+          "uid" : "ac71079850e5975",
+          "parentUid" : "b581c516c6b9db59de59ebc2db6034d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598968021459,
+            "stop" : 1598968027203,
+            "duration" : 5744
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "b581c516c6b9db59de59ebc2db6034d3"
+      } ],
+      "uid" : "21f30613ec6772f4999c23478524ae33"
+    }, {
+      "name" : "MyFitnessPal Database Tests",
+      "children" : [ {
+        "name" : "SanityTests.myFitnessPalDB",
+        "children" : [ {
+          "name" : "Test01: Login to MyFitnessPal with DB",
+          "uid" : "9220385038fab7cd",
+          "parentUid" : "faf3c10115e23a264c1633d501d5ed39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598968083285,
+            "stop" : 1598968089218,
+            "duration" : 5933
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "database" ]
+        } ],
+        "uid" : "faf3c10115e23a264c1633d501d5ed39"
+      } ],
+      "uid" : "001f1e3545ac3681c039562c3932a0e4"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

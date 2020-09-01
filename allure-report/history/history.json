@@ -1,0 +1,411 @@
+{
+  "242af68bb55954d0c6c401337174499" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f914444f2ff8ab77",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/3/allure/#testresult/f914444f2ff8ab77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950161287,
+        "stop" : 1598950161727,
+        "duration" : 440
+      }
+    } ]
+  },
+  "cc232948e7f2b2662e78d3fa176b76ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ef33e8fe2ddba405",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/ef33e8fe2ddba405",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598968014270,
+        "stop" : 1598968020273,
+        "duration" : 6003
+      }
+    }, {
+      "uid" : "cbe428cb238410fa",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/cbe428cb238410fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598967389696,
+        "stop" : 1598967396518,
+        "duration" : 6822
+      }
+    } ]
+  },
+  "407697a353c97f185bc2346894064b7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6b7e5dd6ec163afb",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/6b7e5dd6ec163afb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598967403978,
+        "stop" : 1598967425539,
+        "duration" : 21561
+      }
+    }, {
+      "uid" : "ccb108bed14237d4",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/ccb108bed14237d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598967403978,
+        "stop" : 1598967425539,
+        "duration" : 21561
+      }
+    } ]
+  },
+  "b62099e8cece8ccd08b5170f8e2bf21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7d9cb7c1f30de7f0",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/7d9cb7c1f30de7f0",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924597,
+        "stop" : 1598966924597,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a4ff9d034b9d767c",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/a4ff9d034b9d767c",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924597,
+        "stop" : 1598966924597,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c80ef6169bd6f9332bf3d60735d8fce0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "78e3c76e171d60cf",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/78e3c76e171d60cf",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924589,
+        "stop" : 1598966924590,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f24d29dfe71ddb13",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/f24d29dfe71ddb13",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924589,
+        "stop" : 1598966924590,
+        "duration" : 1
+      }
+    } ]
+  },
+  "28835d71d33a70e468c9d2937ac93b75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e9414a89b4e94cf0",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/e9414a89b4e94cf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598968119961,
+        "stop" : 1598968120343,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "530d1def3bc6d915",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/530d1def3bc6d915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598965033488,
+        "stop" : 1598965033790,
+        "duration" : 302
+      }
+    } ]
+  },
+  "67a422ad0530e8200733f22422c19a35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aa7431af2b48387f",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/aa7431af2b48387f",
+      "status" : "broken",
+      "statusDetails" : "Invalid case name stated",
+      "time" : {
+        "start" : 1598964918410,
+        "stop" : 1598964918411,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "da5f7e48fea90896",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/da5f7e48fea90896",
+      "status" : "broken",
+      "statusDetails" : "Invalid case name stated",
+      "time" : {
+        "start" : 1598964918410,
+        "stop" : 1598964918411,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3396a7cae3f726136db76bfb954cd73d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ac8c0ec4fd5e919e",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/ac8c0ec4fd5e919e",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924533,
+        "stop" : 1598966924535,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5f5a543679b3f444",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/5f5a543679b3f444",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924533,
+        "stop" : 1598966924535,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b61b9722ad96c5216ed502610780fe37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9220385038fab7cd",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/9220385038fab7cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598968083285,
+        "stop" : 1598968089218,
+        "duration" : 5933
+      }
+    }, {
+      "uid" : "a927e201085b0f0b",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/a927e201085b0f0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964888888,
+        "stop" : 1598964894520,
+        "duration" : 5632
+      }
+    } ]
+  },
+  "3a6bf60a7de6e0565f637b22e4234d57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ac71079850e5975",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/ac71079850e5975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598968021459,
+        "stop" : 1598968027203,
+        "duration" : 5744
+      }
+    }, {
+      "uid" : "2aeee2dc330c6539",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/2aeee2dc330c6539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598967397652,
+        "stop" : 1598967402706,
+        "duration" : 5054
+      }
+    } ]
+  },
+  "c8513c2ac6907cd55102cc92da8f929c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "227ce007254cfc46",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/227ce007254cfc46",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598958226505,
+        "stop" : 1598958226507,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1f5d6d229f80d67b",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/1f5d6d229f80d67b",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598958226505,
+        "stop" : 1598958226507,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e75960e0fa96de3e08737246a5275734" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7417881753e698ca",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/7417881753e698ca",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924599,
+        "stop" : 1598966924600,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "966e70919f4379c6",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/966e70919f4379c6",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598966924599,
+        "stop" : 1598966924600,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cdd39a2e47769c7124c8814f189b6b3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "ab9b8dce1e02e4ce",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/5/allure/#testresult/ab9b8dce1e02e4ce",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598958226562,
+        "stop" : 1598958226563,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2a3ebe55ee0145ff",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/4/allure/#testresult/2a3ebe55ee0145ff",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1598958226562,
+        "stop" : 1598958226563,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6fb8b5c844a06a72",
+      "reportUrl" : "http://localhost:9090/job/ElectronApp/3/allure/#testresult/6fb8b5c844a06a72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598893607023,
+        "stop" : 1598893614155,
+        "duration" : 7132
+      }
+    }, {
+      "uid" : "78474513197f1e05",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web/6/allure/#testresult/78474513197f1e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598892967947,
+        "stop" : 1598892974539,
+        "duration" : 6592
+      }
+    }, {
+      "uid" : "2eaa6245becab839",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web/5/allure/#testresult/2eaa6245becab839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598892294179,
+        "stop" : 1598892301146,
+        "duration" : 6967
+      }
+    } ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\user\\AppData\\Local\\JetBrains\\IdeaIC2020.2\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "227ce007254cfc46",
+        "parentUid" : "f60bfbeee5d150987ff377f51e0c078d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598958226505,
+          "stop" : 1598958226507,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "ac8c0ec4fd5e919e",
+        "parentUid" : "f60bfbeee5d150987ff377f51e0c078d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598966924533,
+          "stop" : 1598966924535,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f60bfbeee5d150987ff377f51e0c078d"
+    }, {
+      "name" : "Invalid case name stated",
+      "children" : [ {
+        "name" : "closeSession",
+        "uid" : "aa7431af2b48387f",
+        "parentUid" : "f35a1d96fc9685f974ffb9e3f70464a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964918410,
+          "stop" : 1598964918411,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "f35a1d96fc9685f974ffb9e3f70464a5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

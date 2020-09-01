@@ -1,0 +1,121 @@
+[ {
+  "uid" : "9220385038fab7cd",
+  "name" : "Test01: Login to MyFitnessPal with DB",
+  "time" : {
+    "start" : 1598968083285,
+    "stop" : 1598968089218,
+    "duration" : 5933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab9b8dce1e02e4ce",
+  "name" : "Test01: Login to MyFitnessPal with DB",
+  "time" : {
+    "start" : 1598958226562,
+    "stop" : 1598958226563,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ac8c0ec4fd5e919e",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1598966924533,
+    "stop" : 1598966924535,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6b7e5dd6ec163afb",
+  "name" : "Test03: Verify Deleted Exercise",
+  "time" : {
+    "start" : 1598967403978,
+    "stop" : 1598967425539,
+    "duration" : 21561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78e3c76e171d60cf",
+  "name" : "Test01: Login to MyFitnessPal",
+  "time" : {
+    "start" : 1598966924589,
+    "stop" : 1598966924590,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ef33e8fe2ddba405",
+  "name" : "Test01: Login to MyFitnessPal",
+  "time" : {
+    "start" : 1598968014270,
+    "stop" : 1598968020273,
+    "duration" : 6003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d9cb7c1f30de7f0",
+  "name" : "Test02: Verify Added Exercise",
+  "time" : {
+    "start" : 1598966924597,
+    "stop" : 1598966924597,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ac71079850e5975",
+  "name" : "Test02: Verify Added Exercise",
+  "time" : {
+    "start" : 1598968021459,
+    "stop" : 1598968027203,
+    "duration" : 5744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "227ce007254cfc46",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1598958226505,
+    "stop" : 1598958226507,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7417881753e698ca",
+  "name" : "Test03: Verify Deleted Exercise",
+  "time" : {
+    "start" : 1598966924599,
+    "stop" : 1598966924600,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aa7431af2b48387f",
+  "name" : "closeSession",
+  "time" : {
+    "start" : 1598964918410,
+    "stop" : 1598964918411,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e9414a89b4e94cf0",
+  "name" : "Test01: Verify Screen Resolution",
+  "time" : {
+    "start" : 1598968119961,
+    "stop" : 1598968120343,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

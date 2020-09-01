@@ -1,0 +1,332 @@
+{
+  "uid" : "e56c0ac5db59b1ed",
+  "name" : "Test02: Verify Added Exercise",
+  "fullName" : "SanityTests.myFitnessPalWeb.test02_addStrengthExercise",
+  "historyId" : "3a6bf60a7de6e0565f637b22e4234d57",
+  "time" : {
+    "start" : 1598959609082,
+    "stop" : 1598959614554,
+    "duration" : 5472
+  },
+  "description" : "Test Description: Add an exercise and verify it exists",
+  "descriptionHtml" : "<p>Test Description: Add an exercise and verify it exists</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test Description: Add an exercise and verify it exists",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add a Strength Exercise",
+      "time" : {
+        "start" : 1598959609082,
+        "stop" : 1598959614341,
+        "duration" : 5259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959609093,
+          "stop" : 1598959609476,
+          "duration" : 383
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> css selector: div[id = 'nav-bg'] a[href = '/exercise/diary/']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959609623,
+          "stop" : 1598959610893,
+          "duration" : 1270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> xpath: //div[@id= 'subNav-bg']//a[contains(text(), 'Exercise Diary')]]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959610902,
+          "stop" : 1598959611342,
+          "duration" : 440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> xpath: //a[@href = '/exercise/add_to_diary?type=strength']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598959611700,
+          "stop" : 1598959611777,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> id: search]"
+        }, {
+          "name" : "value",
+          "value" : "Deadlift"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959611786,
+          "stop" : 1598959611874,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> css selector: #searchFoodByName .button]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959612691,
+          "stop" : 1598959612774,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> xpath: //ul[@id= 'matching']//a[contains(text(), 'Deadlift')]]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598959613053,
+          "stop" : 1598959613121,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> id: exercise_entry_sets]"
+        }, {
+          "name" : "value",
+          "value" : "4"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598959613132,
+          "stop" : 1598959613193,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> id: exercise_entry_quantity]"
+        }, {
+          "name" : "value",
+          "value" : "12"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1598959613204,
+          "stop" : 1598959613260,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> id: exercise_entry_weight]"
+        }, {
+          "name" : "value",
+          "value" : "80"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1598959613269,
+          "stop" : 1598959614341,
+          "duration" : 1072
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> id: update_exercise]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "exerciseName",
+        "value" : "Deadlift"
+      }, {
+        "name" : "numberOfSets",
+        "value" : "4"
+      }, {
+        "name" : "repetitionsPerSet",
+        "value" : "12"
+      }, {
+        "name" : "weightPerSet",
+        "value" : "80"
+      } ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Visibility of the Number of Elements to",
+      "time" : {
+        "start" : 1598959614493,
+        "stop" : 1598959614554,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (1883cb0544cc2425e021e5379f9a1727)] -> xpath: //table[2][@class = 'table0']//tbody//td[@class = 'first alt']]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598959614557,
+      "stop" : 1598959615426,
+      "duration" : 869
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addStrengthExercise"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C5T3T2P"
+  }, {
+    "name" : "thread",
+    "value" : "31444@DESKTOP-C5T3T2P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e56c0ac5db59b1ed.json",
+  "parameterValues" : [ "web" ]
+}

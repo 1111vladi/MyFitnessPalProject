@@ -1,0 +1,979 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-C5T3T2P",
+    "children" : [ {
+      "name" : "31584@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "5da9dd4325177130",
+        "parentUid" : "2d7448f8006c51e521a69d2ed601a405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598966461451,
+          "stop" : 1598966468756,
+          "duration" : 7305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "2d7448f8006c51e521a69d2ed601a405"
+    }, {
+      "name" : "28320@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "38fa71fdccb2e0a9",
+        "parentUid" : "98c6929ee9bc47e9d09dc0d3130a7fa2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598958251449,
+          "stop" : 1598958257923,
+          "duration" : 6474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "98c6929ee9bc47e9d09dc0d3130a7fa2"
+    }, {
+      "name" : "11752@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "a3cb03527b3ac4ac",
+        "parentUid" : "dfcfe0e9af0545b7c7dd185fac4ed503",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598958314318,
+          "stop" : 1598958318868,
+          "duration" : 4550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Verify Deleted Exercise",
+        "uid" : "b5eefd7e7f588329",
+        "parentUid" : "dfcfe0e9af0545b7c7dd185fac4ed503",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598958319889,
+          "stop" : 1598958351243,
+          "duration" : 31354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "b391a1c27de9decd",
+        "parentUid" : "dfcfe0e9af0545b7c7dd185fac4ed503",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598958305434,
+          "stop" : 1598958312972,
+          "duration" : 7538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "dfcfe0e9af0545b7c7dd185fac4ed503"
+    }, {
+      "name" : "19096@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "150646d9aa9de3d8",
+        "parentUid" : "09327d9fd0de8bc32bc12961be600446",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964888888,
+          "stop" : 1598964894520,
+          "duration" : 5632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "09327d9fd0de8bc32bc12961be600446"
+    }, {
+      "name" : "14756@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "871fda1c1445acd6",
+        "parentUid" : "ce05303d945682fac18667f967dd92ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964744164,
+          "stop" : 1598964744256,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "ce05303d945682fac18667f967dd92ee"
+    }, {
+      "name" : "29784@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "9220385038fab7cd",
+        "parentUid" : "a277c7bf1e123f702db1e9310839a12d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968083285,
+          "stop" : 1598968089218,
+          "duration" : 5933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "a277c7bf1e123f702db1e9310839a12d"
+    }, {
+      "name" : "28788@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "dde94c0210215649",
+        "parentUid" : "4c0ed4cce73164eccf5fa3efe5f4a363",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964664690,
+          "stop" : 1598964664771,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "4c0ed4cce73164eccf5fa3efe5f4a363"
+    }, {
+      "name" : "22992@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "d999920f740abe00",
+        "parentUid" : "7e59d69660e570fd72cc6a274d525a5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967019368,
+          "stop" : 1598967066271,
+          "duration" : 46903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "f58dedf241e5cbdb",
+        "parentUid" : "7e59d69660e570fd72cc6a274d525a5a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598967066677,
+          "stop" : 1598967171275,
+          "duration" : 104598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "7e59d69660e570fd72cc6a274d525a5a"
+    }, {
+      "name" : "15724@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "ac71079850e5975",
+        "parentUid" : "5add3e1290fe8b43b49f262c64cff0d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968021459,
+          "stop" : 1598968027203,
+          "duration" : 5744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "ef33e8fe2ddba405",
+        "parentUid" : "5add3e1290fe8b43b49f262c64cff0d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968014270,
+          "stop" : 1598968020273,
+          "duration" : 6003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "5add3e1290fe8b43b49f262c64cff0d4"
+    }, {
+      "name" : "2724@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "33d5966b1d9f5954",
+        "parentUid" : "ab99c2d0d3e35458103f82866b58aa13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964151275,
+          "stop" : 1598964158748,
+          "duration" : 7473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "bd83270ac221c8f4",
+        "parentUid" : "ab99c2d0d3e35458103f82866b58aa13",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598964159907,
+          "stop" : 1598964166398,
+          "duration" : 6491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ab99c2d0d3e35458103f82866b58aa13"
+    }, {
+      "name" : "24072@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "e9414a89b4e94cf0",
+        "parentUid" : "8c504fe87612869aeca8f294deb2db95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598968119961,
+          "stop" : 1598968120343,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "8c504fe87612869aeca8f294deb2db95"
+    }, {
+      "name" : "30528@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "closeSession",
+        "uid" : "aa7431af2b48387f",
+        "parentUid" : "593c3de9f1bd6d878d821fdc204410e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964918410,
+          "stop" : 1598964918411,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "9bcae0158a04f16e",
+        "parentUid" : "593c3de9f1bd6d878d821fdc204410e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964918058,
+          "stop" : 1598964918360,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "593c3de9f1bd6d878d821fdc204410e1"
+    }, {
+      "name" : "10244@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test03: Verify Deleted Exercise",
+        "uid" : "b8443ab0caa798de",
+        "parentUid" : "aec30081c47d9b0a8af419eba94b52b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959658285,
+          "stop" : 1598959681186,
+          "duration" : 22901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "85a09e6c2fff0ec9",
+        "parentUid" : "aec30081c47d9b0a8af419eba94b52b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598959650868,
+          "stop" : 1598959657243,
+          "duration" : 6375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "40c018de5ce2f55c",
+        "parentUid" : "aec30081c47d9b0a8af419eba94b52b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959643375,
+          "stop" : 1598959649673,
+          "duration" : 6298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "aec30081c47d9b0a8af419eba94b52b1"
+    }, {
+      "name" : "14016@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "bab68159f1543165",
+        "parentUid" : "1ffd01d3eae4f571fce52e7b1eb52ce5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967397652,
+          "stop" : 1598967402706,
+          "duration" : 5054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "1134690c2d78242e",
+        "parentUid" : "1ffd01d3eae4f571fce52e7b1eb52ce5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967389696,
+          "stop" : 1598967396518,
+          "duration" : 6822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Verify Deleted Exercise",
+        "uid" : "6b7e5dd6ec163afb",
+        "parentUid" : "1ffd01d3eae4f571fce52e7b1eb52ce5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967403978,
+          "stop" : 1598967425539,
+          "duration" : 21561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1ffd01d3eae4f571fce52e7b1eb52ce5"
+    }, {
+      "name" : "30120@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "78e3c76e171d60cf",
+        "parentUid" : "82bd426e6d55969f92ce00429529c655",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924589,
+          "stop" : 1598966924590,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test03: Verify Deleted Exercise",
+        "uid" : "7417881753e698ca",
+        "parentUid" : "82bd426e6d55969f92ce00429529c655",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924599,
+          "stop" : 1598966924600,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "ac8c0ec4fd5e919e",
+        "parentUid" : "82bd426e6d55969f92ce00429529c655",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598966924533,
+          "stop" : 1598966924535,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "7d9cb7c1f30de7f0",
+        "parentUid" : "82bd426e6d55969f92ce00429529c655",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598966924597,
+          "stop" : 1598966924597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82bd426e6d55969f92ce00429529c655"
+    }, {
+      "name" : "25108@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "41f4dfb5ec20c21a",
+        "parentUid" : "631cf0f98577744321d5d329357a8cb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598962313010,
+          "stop" : 1598962321302,
+          "duration" : 8292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "631cf0f98577744321d5d329357a8cb0"
+    }, {
+      "name" : "18684@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "6ff6cd94c2ac85e8",
+        "parentUid" : "2d9bb5e3b303a31e2868dd7018dd2c6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959812811,
+          "stop" : 1598959820042,
+          "duration" : 7231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "2d9bb5e3b303a31e2868dd7018dd2c6a"
+    }, {
+      "name" : "28972@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "4a42456dea27a521",
+        "parentUid" : "12fdf0d66e296c8f1ca37c192d5dc5a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598963924550,
+          "stop" : 1598963931462,
+          "duration" : 6912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "12fdf0d66e296c8f1ca37c192d5dc5a2"
+    }, {
+      "name" : "21296@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "88cd515f9213d173",
+        "parentUid" : "e3e412ddd1d9dbbc09305e26537a20d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598960538888,
+          "stop" : 1598960545680,
+          "duration" : 6792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "e3e412ddd1d9dbbc09305e26537a20d1"
+    }, {
+      "name" : "30032@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "7d14af9d59fc1d1b",
+        "parentUid" : "618d2c41ad072aca6e9b5421d5cc28cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598967254489,
+          "stop" : 1598967258360,
+          "duration" : 3871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "618d2c41ad072aca6e9b5421d5cc28cb"
+    }, {
+      "name" : "27088@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "c1518e82631f8e58",
+        "parentUid" : "ded7730105b51443b73d74f4f18ffbc5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598959203293,
+          "stop" : 1598959206313,
+          "duration" : 3020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "ded7730105b51443b73d74f4f18ffbc5"
+    }, {
+      "name" : "10764@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "a428913b0c6481d7",
+        "parentUid" : "5408ead65b0505d0e7f90d48e75c6ed5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959733689,
+          "stop" : 1598959740440,
+          "duration" : 6751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "bb53530e53baa4a",
+        "parentUid" : "5408ead65b0505d0e7f90d48e75c6ed5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598959741627,
+          "stop" : 1598959773456,
+          "duration" : 31829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "5408ead65b0505d0e7f90d48e75c6ed5"
+    }, {
+      "name" : "19852@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "8ab01799b86655ee",
+        "parentUid" : "1b28005f38639279e832549273c10446",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964028044,
+          "stop" : 1598964031118,
+          "duration" : 3074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "1b28005f38639279e832549273c10446"
+    }, {
+      "name" : "10512@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "ab9b8dce1e02e4ce",
+        "parentUid" : "c8319c4db61d765167592121d1beb9a7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1598958226562,
+          "stop" : 1598958226563,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "227ce007254cfc46",
+        "parentUid" : "c8319c4db61d765167592121d1beb9a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598958226505,
+          "stop" : 1598958226507,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8319c4db61d765167592121d1beb9a7"
+    }, {
+      "name" : "10496@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "f88655cba7baaf69",
+        "parentUid" : "f037ad70d7bd7e441d3f7a3134374e37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959234097,
+          "stop" : 1598959240622,
+          "duration" : 6525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "f037ad70d7bd7e441d3f7a3134374e37"
+    }, {
+      "name" : "21588@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "dbc81b954c4042d5",
+        "parentUid" : "3dfe4e45f75f8939cdd7d22b410030b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598960579181,
+          "stop" : 1598960584152,
+          "duration" : 4971
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Verify Deleted Exercise",
+        "uid" : "c2a51e18e4f180ce",
+        "parentUid" : "3dfe4e45f75f8939cdd7d22b410030b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598960585286,
+          "stop" : 1598960617175,
+          "duration" : 31889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "6eac487b8cce9834",
+        "parentUid" : "3dfe4e45f75f8939cdd7d22b410030b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598960571728,
+          "stop" : 1598960577532,
+          "duration" : 5804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "3dfe4e45f75f8939cdd7d22b410030b4"
+    }, {
+      "name" : "24600@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "5dc0c559d15641c1",
+        "parentUid" : "c60b6765e24991703f2a6343ec4b0c7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964999028,
+          "stop" : 1598964999330,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "c60b6765e24991703f2a6343ec4b0c7d"
+    }, {
+      "name" : "27888@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "40d131e7cab1b7c5",
+        "parentUid" : "998620abdcc2749ac650ec0bae8b8786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964683874,
+          "stop" : 1598964689667,
+          "duration" : 5793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "d2968ba3eb7a1cb",
+        "parentUid" : "998620abdcc2749ac650ec0bae8b8786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964690762,
+          "stop" : 1598964696149,
+          "duration" : 5387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "998620abdcc2749ac650ec0bae8b8786"
+    }, {
+      "name" : "15016@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "631a8c6c779401c1",
+        "parentUid" : "418d7d8d7abd74a66b5429101b704cd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598966693569,
+          "stop" : 1598966747902,
+          "duration" : 54333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "418d7d8d7abd74a66b5429101b704cd9"
+    }, {
+      "name" : "28360@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution",
+        "uid" : "4ff890dfb8a9f809",
+        "parentUid" : "a512988f73ae0dce62cc0a9645306e58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598965033488,
+          "stop" : 1598965033790,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "a512988f73ae0dce62cc0a9645306e58"
+    }, {
+      "name" : "14604@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "5c8388faf1afd5ec",
+        "parentUid" : "b9819e3089d9fbcff229d49f9d1c38bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598966974437,
+          "stop" : 1598966980734,
+          "duration" : 6297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "5447fd390bb1534c",
+        "parentUid" : "b9819e3089d9fbcff229d49f9d1c38bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598966981081,
+          "stop" : 1598966985536,
+          "duration" : 4455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b9819e3089d9fbcff229d49f9d1c38bc"
+    }, {
+      "name" : "18572@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "8414201d81847b92",
+        "parentUid" : "930931f06440f1084903941f2e9f5476",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598966600057,
+          "stop" : 1598966616185,
+          "duration" : 16128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "930931f06440f1084903941f2e9f5476"
+    }, {
+      "name" : "25224@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "784f3c49d11196e0",
+        "parentUid" : "e7e6eb6a54ef1d18c3af5de23e9de49a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598963838276,
+          "stop" : 1598963845112,
+          "duration" : 6836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "e7e6eb6a54ef1d18c3af5de23e9de49a"
+    }, {
+      "name" : "23708@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "d19e18626894f990",
+        "parentUid" : "31fb8fe2aae349b3fee56ea8891ba776",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598964639084,
+          "stop" : 1598964639167,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "31fb8fe2aae349b3fee56ea8891ba776"
+    }, {
+      "name" : "30452@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "452ca5388d448783",
+        "parentUid" : "bbd6352db12367fdb9782b463f8e28c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598964054275,
+          "stop" : 1598964060970,
+          "duration" : 6695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "bbd6352db12367fdb9782b463f8e28c8"
+    }, {
+      "name" : "23652@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "3073fc1b6a8ad942",
+        "parentUid" : "c76fcfd68b695dd1774c2bf7838ee10a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598963999766,
+          "stop" : 1598964005292,
+          "duration" : 5526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "c76fcfd68b695dd1774c2bf7838ee10a"
+    }, {
+      "name" : "31444@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "5b2501426c905c5d",
+        "parentUid" : "4bcf2cdfa4abc100c7045ef057fdd770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959601766,
+          "stop" : 1598959607741,
+          "duration" : 5975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Added Exercise",
+        "uid" : "e56c0ac5db59b1ed",
+        "parentUid" : "4bcf2cdfa4abc100c7045ef057fdd770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598959609082,
+          "stop" : 1598959614554,
+          "duration" : 5472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to MyFitnessPal with DB",
+        "uid" : "5249dd80d3603130",
+        "parentUid" : "4bcf2cdfa4abc100c7045ef057fdd770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598960515285,
+          "stop" : 1598960522946,
+          "duration" : 7661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "database" ]
+      } ],
+      "uid" : "4bcf2cdfa4abc100c7045ef057fdd770"
+    }, {
+      "name" : "14524@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "eab29f2ed7754d3d",
+        "parentUid" : "60fd07be5858e7cb144b3bb1df785a8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598962360506,
+          "stop" : 1598962366040,
+          "duration" : 5534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "60fd07be5858e7cb144b3bb1df785a8b"
+    }, {
+      "name" : "32272@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "da02ffaf32448bbd",
+        "parentUid" : "706f602509020715d71ec6f9a5f1019d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967275669,
+          "stop" : 1598967281970,
+          "duration" : 6301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "706f602509020715d71ec6f9a5f1019d"
+    }, {
+      "name" : "24776@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "6e7f56312008071d",
+        "parentUid" : "ea766417a2bf7e1a9a6dfa4a953b2f91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598967351657,
+          "stop" : 1598967357217,
+          "duration" : 5560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ea766417a2bf7e1a9a6dfa4a953b2f91"
+    }, {
+      "name" : "28304@DESKTOP-C5T3T2P.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to MyFitnessPal",
+        "uid" : "ac062d84f79a0dd3",
+        "parentUid" : "d482c27208e4da0c909bc80b91756985",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598966542610,
+          "stop" : 1598966548583,
+          "duration" : 5973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d482c27208e4da0c909bc80b91756985"
+    } ],
+    "uid" : "7ac4211561b4f7c01b1d5c8318b74ab8"
+  } ]
+}

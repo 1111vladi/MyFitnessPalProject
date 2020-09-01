@@ -1,0 +1,113 @@
+{
+  "uid" : "1134690c2d78242e",
+  "name" : "Test01: Login to MyFitnessPal",
+  "fullName" : "SanityTests.myFitnessPalWeb.test01_login",
+  "historyId" : "cc232948e7f2b2662e78d3fa176b76ca",
+  "time" : {
+    "start" : 1598967389696,
+    "stop" : 1598967396518,
+    "duration" : 6822
+  },
+  "description" : "Test Description: Login into MyFitnessPal web application",
+  "descriptionHtml" : "<p>Test Description: Login into MyFitnessPal web application</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1598967380949,
+      "stop" : 1598967389671,
+      "duration" : 8722
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1598967396563,
+      "stop" : 1598967397646,
+      "duration" : 1083
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1598967426888,
+      "stop" : 1598967427469,
+      "duration" : 581
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C5T3T2P"
+  }, {
+    "name" : "thread",
+    "value" : "14016@DESKTOP-C5T3T2P.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1134690c2d78242e.json",
+  "parameterValues" : [ "web" ]
+}
