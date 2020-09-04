@@ -108,11 +108,10 @@ public class commonOps extends base {
         opt.setBinary(getData("ElectronAppPath"));
         dc.setCapability("chromeOptions", opt);
         dc.setBrowserName("chrome");
-        // Works with Selenium Ver. 3.141.59
         // Ver. 3.5.2 was used before implementing Electron support
+        // Works with Selenium Ver. 3.141.59
         driver = new ChromeDriver(dc);
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
-
     }
 
     public static void initDesktop() {
@@ -123,7 +122,6 @@ public class commonOps extends base {
             System.out.println("Can not connect to Appium server, see details " + e);
         }
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
-
     }
 
     @BeforeClass
@@ -154,30 +152,7 @@ public class commonOps extends base {
             default:
                 throw new RuntimeException(("Invalid platform name stated"));
         }
-//        if (platform.equalsIgnoreCase("web") || platform.equalsIgnoreCase("database")) {
-//            initBrowser(getData("BrowserName"));
-//            manageDB.openDBConnection(getData("dbURL"), getData("dbUser"), getData("dbPass"));
-//        }
-//        else if (platform.equalsIgnoreCase("mobile"))
-//            initMobile();
-//        else if (platform.equalsIgnoreCase("api"))
-//            initApi();
-//        else if (platform.equalsIgnoreCase("electron")) {
-//            initElectron();
-//            initElectronPages();
-//        }
-//        else if (platform.equalsIgnoreCase("desktop")) {
-//            initDesktop();
-//            initDesktopPages();
-//        }
-//        else
-//            throw new RuntimeException(("Invalid platform name stated"));
-//        managePages.initWebPages();
-
-//        managePages.initElectronPage();
-//        managePages.initMobilePages();
     }
-
 
     @AfterMethod
     @Parameters({"PlatformName"})
@@ -204,13 +179,5 @@ public class commonOps extends base {
             default:
                 throw new RuntimeException(("Invalid case name stated"));
         }
-//        if (platform.equalsIgnoreCase("web")) {
-//            driver.quit();
-//        } else if (platform.equalsIgnoreCase("mobile")) {
-//            mobileDriver.quit();
-//        }
-//        if (!platform.equalsIgnoreCase("api")) {
-//            driver.quit();
-//        }
     }
 }

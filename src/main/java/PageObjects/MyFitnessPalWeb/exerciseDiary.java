@@ -1,4 +1,4 @@
-package PageObjects.MyFitnessPal;
+package PageObjects.MyFitnessPalWeb;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +20,7 @@ public class exerciseDiary {
     @FindBy( how = How.XPATH, using = "//a[@href = '#quick_tools_1']")
     public WebElement btn_strengthTrainingQuickTools;
 
-    @FindBy( how = How.XPATH, using = "//table[@class = 'table0']//a[contains(text(), 'Deadlift, Straight Leg')]")
+    @FindBy( how = How.XPATH, using = "//table[2][@class = 'table0']//a[contains(text(), 'Deadlift, Straight Leg')]")
     public WebElement txt_exerciseName;
 
     @FindBy( how = How.XPATH, using = "//table[2][@class = 'table0']//tbody/tr//i[@class = 'icon-minus-sign']")
@@ -28,9 +28,6 @@ public class exerciseDiary {
 
     @FindBy( how = How.XPATH, using = "//table[1][@class = 'table0']//tbody/tr//i[@class = 'icon-minus-sign']")
     public List <WebElement> rows_deleteCardiovascularExercise;
-
-    @FindBy( how = How.XPATH, using = "//*[@id='main']/div[2]/table[2]/tbody/tr[1]/td[1]/a")
-    public WebElement xpath_element;
 
     @FindBy( how = How.XPATH, using = "//table[2][@class = 'table0']//tbody//td[@class = 'first alt']")
     public List <WebElement> rows_exercises;

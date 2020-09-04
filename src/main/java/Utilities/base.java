@@ -55,26 +55,26 @@ public class base {
 
     /** ------------- MyFitnessPal - Web ------------- **/
     // Login
-    public static PageObjects.MyFitnessPal.loginPage fitnessPalLoginPage;
+    public static PageObjects.MyFitnessPalWeb.loginPage fitnessPalLoginPage;
 
     // Header
-    public static PageObjects.MyFitnessPal.headerWrap fitnessPalHeaderWrap;
+    public static PageObjects.MyFitnessPalWeb.headerWrap fitnessPalHeaderWrap;
 
     // Main Menu
-    public static PageObjects.MyFitnessPal.mainMenuPage fitnessPalMainMenuPage;
+    public static PageObjects.MyFitnessPalWeb.mainMenuPage fitnessPalMainMenuPage;
 
     // My Home Menu
-    public static PageObjects.MyFitnessPal.myHomeMenuPage fitnessPalMyHomeMenuPage;
+    public static PageObjects.MyFitnessPalWeb.myHomeMenuPage fitnessPalMyHomeMenuPage;
 
     // Home
-    public static PageObjects.MyFitnessPal.homePage fitnessPalHomePage;
+    public static PageObjects.MyFitnessPalWeb.homePage fitnessPalHomePage;
 
     // Exercise Menu
-    public static PageObjects.MyFitnessPal.exerciseMenuPage fitnessPalExerciseMenuPage;
+    public static PageObjects.MyFitnessPalWeb.exerciseMenuPage fitnessPalExerciseMenuPage;
 
     // Exercise Diary
-    public static PageObjects.MyFitnessPal.exerciseDiary fitnessPalExerciseExerciseDiary;
-    public static PageObjects.MyFitnessPal.exerciseDiaryAddExercise fitnessPalExerciseDiaryAddExercise;
+    public static PageObjects.MyFitnessPalWeb.exerciseDiary fitnessPalExerciseExerciseDiary;
+    public static PageObjects.MyFitnessPalWeb.exerciseDiaryAddExercise fitnessPalExerciseDiaryAddExercise;
 
 
     /** ------------- MyFitnessPal - Mobile ------------- **/
@@ -84,7 +84,7 @@ public class base {
     public static PageObjects.MyFitnessPalMobile.addWaterPage fitnessPalMobileAddWaterPage;
     public static PageObjects.MyFitnessPalMobile.diaryPage fitnessPalMobileDiaryPage;
     public static PageObjects.MyFitnessPalMobile.mePage fitnessPalMobileMePage;
-//    public static PageObjects.MyFitnessPalMobile.PremiumAfterLoginPage fitnessPalMobilePremiumAfterLoginPage;
+    public static PageObjects.MyFitnessPalMobile.premiumAfterLoginPage fitnessPalMobilePremiumAfterLoginPage;
 
     /** ------------- Electron ------------- **/
     // Electron App
